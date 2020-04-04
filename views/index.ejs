@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <link rel="stylesheet" href="/public/third_party/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/public/css/style.css" />
 
   <title>Counter</title>
@@ -40,9 +40,11 @@
             <path fill-rule="evenodd" d="M14.146 8.354l-2.5-2.5.708-.708 2.5 2.5-.708.708zM5 12v.5a.5.5 0 00.5.5H6v.5a.5.5 0 00.5.5H7v.5a.5.5 0 00.5.5H8v-1.5a.5.5 0 00-.5-.5H7v-.5a.5.5 0 00-.5-.5H5z" clip-rule="evenodd"></path>
           </svg>
         </a>
+        <!--
         <button type="button" class="close" aria-label="閉じる" data-toggle="modal" data-target="#close-modal" data-id="0">
           <span aria-hidden="true">&times;</span>
         </button>
+        -->
       </h5>
       <div class="card-body">
         <div class="input-group cnt-group">
@@ -59,9 +61,11 @@
     </div>
 
     <div class="row">
+      <!--
       <div class="col-sm mb-3">
         <a href="#" id="add-counter"><button type="button" class="btn btn-danger rounded-circle p-0" style="width:2rem;height:2rem;">＋</button>&nbsp;Add Counter</a>
       </div>
+      -->
       <div class="col-sm mb-3">
         <div class="float-sm-right">
           <a href="#" data-toggle="modal" data-target="#reset-modal"><button type="button" class="btn btn-success rounded-circle p-0" style="width:2rem;height:2rem;">!</button>&nbsp;Reset Counter</a>
@@ -109,8 +113,9 @@
     </div>
   </div>
 
-  <script type="text/javascript" src="/public/third_party/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="/public/third_party/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script type="text/javascript" src="/public/js/script.js"></script>
 
