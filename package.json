@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "ejs": "^3.0.1",
+    "ejs": "^3.0.2",
     "express": "^4.17.1",
     "forever": "^2.0.0",
     "nedb": "^1.8.0",
